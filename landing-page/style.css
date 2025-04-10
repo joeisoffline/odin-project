@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.header{
+    background-color: #1F2937;
+    color: white;
+    padding-bottom: 80px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+}
