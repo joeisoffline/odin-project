@@ -31,5 +31,143 @@ a {
     color: white;
 }
 
+.navi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 180px;
+    justify-content: center;
+    gap: 6px;
+}
+
+#hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 
 }
+
+.signUpBtn {
+    width: 100px;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+}
+
+#hero-image {
+    display: flex;
+    width: 350px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.information-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 30px;
+}
+.information-detail {
+    display: flex;
+    width: 650px;
+    gap: 35px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-image {
+    width: 90px;
+    height: 90px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    width: 680px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    height: 80px;
+    background-color: #3882F6;
+}
+
+.cta {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.cta-description {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 25px;
+}
+.copyright {
+    color: white;
+}
+
