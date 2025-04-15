@@ -7,10 +7,36 @@
 </head>
 <body>
     <script>
+       // Function to add 7 to a number
         function add7(num) {
-    return num + 7;
-  }
-  console.log("add7(3):", add7(3));
+        return num + 7;
+}
+        console.log("add7(3):", add7(34));
+    
+  // Function to multiply two numbers
+        function multiply(a, b) {
+        return a * b;
+}
+        console.log("multiply(4, 5):", multiply(4, 5));
+    
+ // Function to capitalize the first letter of a string
+        function capitalize(str) {
+        if (str.length === 0) return "";
+        return str[0].toUpperCase() + str.slice(1).toLowerCase();
+}
+        console.log('capitalize("hello"):', capitalize("hello")); // Should print "Hello"
+        console.log('capitalize("hELLO"):', capitalize("hELLO")); // Should print "Hello"
+        console.log('capitalize("HELLO"):', capitalize("HELLO")); // Should print "Hello"   
+    
+// Function to return the last letter of a string
+        function lastLetter(str) {
+        if (str.length === 0) return "";
+        return str[str.length - 1];
+}
+        console.log('lastLetter("abcd"):', lastLetter("abcd")); // Should print "d"
+        console.log('lastLetter("Hello"):', lastLetter("Hello")); // Should print "o"
+
+
     </script>
     <p>js function practice</p>
 </body>
