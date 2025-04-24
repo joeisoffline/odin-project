@@ -25,6 +25,36 @@
         const display = controls.previousElementSibling;
         console.log(display); // <div class="display"></div>
 
+//dom methods
+// adds the indicated style rule to the element in the div variable
+        div.style.color = "blue";
+
+// adds several style rules
+        div.style.cssText = "color: blue; background: white;";
+
+// adds several style rules
+        div.setAttribute("style", "color: blue; background: white;");
+// dot notation with kebab case: doesn't work as it attempts to subtract color from div.style.background
+// equivalent to: div.style.background - color
+        div.style.background-color;
+
+// dot notation with camelCase: works, accesses the div's background-color style
+        div.style.backgroundColor;
+
+// bracket notation with kebab-case: also works
+        div.style["background-color"];
+
+// bracket notation with camelCase: also works
+        div.style["backgroundColor"];
+// if id exists, update it to 'theDiv', else create an id with value "theDiv"
+        div.setAttribute("id", "theDiv");
+
+// returns value of specified attribute, in this case "theDiv"
+        div.getAttribute("id");
+
+// removes specified attribute
+        div.removeAttribute("id");
+
 
  </script>     
 </body>
