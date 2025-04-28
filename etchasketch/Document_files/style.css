@@ -29,6 +29,7 @@ body {
     padding: min(2vh, 2vw);
     font-size: min(4vh, 4vw);
     font-family: "Cal Sans", monospace;
+    font-weight: 750;
 }
 
 #container {
