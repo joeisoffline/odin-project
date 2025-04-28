@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.cal-sans-regular {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 :root {
     --padSize: min(80vh, 80vw);
@@ -18,4 +23,28 @@ body {
     height: 100vh;
     box-sizing: border-box;
     gap: min(2vh, 2vw);
+}
+
+#newPad {
+    padding: min(2vh, 2vw);
+    font-size: min(4vh, 4vw);
+    font-family: "Cal Sans", monospace;
+    font-weight: 900;
+}
+
+#container {
+    height: var(--padSize);
+    width: var(--padSize);
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid black;
+    box-shadow: 0 5px 10px grey, 0 8px 16px;
+}
+
+.grid {
+    height: var(--gridSize);
+    width: var(--gridSize);
+    background: rgb(255, 209, 124);
+    border: 1px solid rgba(34, 34, 34, 0.25);
+    box-sizing: border-box;
 }
