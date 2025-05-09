@@ -1,0 +1,27 @@
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: cornsilk;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid-container {
+    width: min(60dvw,60dvh);
+    height: min(60dvw,60dvh);
+    border: 1px solid darkslategray;
+    justify-self: self-start;
+    /* transform: translateY(-5dvh); */
+    display: flex;
+    flex-wrap: wrap;
+}
